@@ -26,31 +26,31 @@ your chosen SMTP email provider. For frequent use and larage number of emails > 
 4. Edit the settings for the csv filename and files naming scheme. Your files must have naming in the certificate_02.pdf format.
 Sets the filename of the csv file
 
-`CONTACTS_CSV = contacts.csv`
+    `CONTACTS_CSV = contacts.csv`
     
 Folder of the atachment files, leave it default
 
-`DOCS_FOLDER = documents/`
+    `DOCS_FOLDER = documents/`
   
 The prefix of your attachment files, i.e. certificate_, invoice_, use an underscore for readability
 
-`FILE_PREFIX = certificate_`
+    `FILE_PREFIX = certificate_`
   
 In case you want to rename the sent file, otherwise use the same value as FILE_PREFIX
 
-`SENT_FILE_PREFIX = certificate_`
+    `SENT_FILE_PREFIX = certificate_`
   
 The numbers of digits in the numberfing, for example 2 means 01, 02, .., 10
 
-`ZERO_PADDING = 2`
+    `ZERO_PADDING = 2`
   
 The file extesnion of your attachments
 
-`FILE_TYPE = pdf`
+    `FILE_TYPE = pdf`
   
 5. In the script set the configuration to production mode
 
-`CONFIG_TYPE = 'PRODUCTION'`
+    `CONFIG_TYPE = 'PRODUCTION'`
   
 6. In the script customize the text message to send in each email. You can also use fields from your csv file like for example tha name of the
 receiver
@@ -59,7 +59,7 @@ using the gmailusername+1@gmail.com, gmailusername+1@gmail.com etc. This is impo
 Set the MAX_RECORDS variable to 3 for example and temporarily change the emails in the csv file. Using MAX_RECORDS you limit the amount of emails no matter
 how many records exist in the csv file. When you are ready set the MAX_RECORDS to number equal or greater than the total records
 
-`MAX_RECORDS = 1000`
+    `MAX_RECORDS = 1000`
   
 6. Run the script. The script outputs some basic info and does a very basic error handling. If an email fails the record number is put inside a list and printed at the end.
 
