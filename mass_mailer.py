@@ -20,10 +20,8 @@
 import csv
 import smtplib
 import configparser
-import sys
 
 # import the corresponding modules
-from email import encoders
 from email.mime.application import MIMEApplication
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
