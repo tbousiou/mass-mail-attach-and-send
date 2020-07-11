@@ -25,7 +25,8 @@ subfolder of the script folder. Also **important numbering starts from 01** and 
 your chosen SMTP email provider. For frequent use and larage number of emails > 500 you might need to use a dedicated SMTP service like sendgrid or mailgun
 4. Edit the settings for the csv filename and files naming scheme. Your files must have naming in the certificate_02.pdf format.
 Sets the filename of the csv file
-  CONTACTS_CSV = contacts.csv
+
+    `CONTACTS_CSV = contacts.csv`
 Folder of the atachment files, leave it default
   DOCS_FOLDER = documents/
 The prefix of your attachment files, i.e. certificate_, invoice_, use an underscore for readability
