@@ -23,8 +23,7 @@ a naming convention with numbers and leading zeroes. For example certificate_01.
 subfolder of the script folder. Also **important numbering starts from 01** and not from 00.
 3. Now edit the config.ini file the **PRODUCTION** section. Read inside the config file for details. You definetaly must change email settings with
 your chosen SMTP email provider. For frequent use and larage number of emails > 500 you might need to use a dedicated SMTP service like sendgrid or mailgun
-4. Edit the settings for the csv filename and files naming scheme. Your files must have naming in the certificate_02.pdf format.
-Sets the filename of the csv file
+4. Edit the settings for the csv filename and files naming scheme. Your files must have naming in the certificate_02.pdf format.  Sets the filename of the csv file
 
     `CONTACTS_CSV = contacts.csv`
     
